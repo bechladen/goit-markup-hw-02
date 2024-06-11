@@ -1,12 +1,54 @@
+/* #region Variables */
 :root {
   /* Fonts */
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
 
   /* Colors */
-
-  /* Others
-
-   */
+  --primary-brand-cl: #4d5ae5;
+  --pressed-state-cl: #404bbf;
+  --dark-cl: #2e2f42;
+  --success-cl: #31d0aa;
+  --text-cl: #434455;
+  --subtle-text-cl: #8e8f99;
+  --accent-cl: #e7e9fc;
+  --light-cl: #f4f4fd;
+  --modal-overlay-cl: rgba(46, 47, 66, 0.4);
+  --hero-bg-cl: rgba(46, 47, 66, 0.7);
+  --white-bg-cl: #fff;
+  --modal-bg-cl: #fcfcfc;
 }
+/* #endregion Variables */
+
+/* #region Base-Styles */
+body {
+}
+/* #endregion Base-Styles */
+
+/* #region Common-Styles */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* #endregion Common-Styles */
+
+/* #region Header */
+/* #endregion Header */
+
+/* #region Main */
+/* #endregion Main */
+
+/* #region Footer */
+/* #endregion Footer */
 
 .raleway-<uniquifier > {
   font-family: 'Raleway', sans-serif;
@@ -31,33 +73,4 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-style: normal;
-}
-
-/* Base styles */
-body {
-}
-
-/* #region Common Styles */
-/* Common styles */
-
-/* #endregion Common Styles*/
-
-/* Header */
-
-/* Main */
-
-/* Footer */
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
