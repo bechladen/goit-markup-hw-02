@@ -22,6 +22,33 @@
 
 /* #region Base-Styles */
 body {
+  font-family: var(--primary-font);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-cl);
+  background-color: var(--white-bg-cl);
+
+  /* Default values */
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+address {
+  font-style: normal;
+}
+
+button {
+  cursor: pointer;
 }
 /* #endregion Base-Styles */
 
@@ -42,6 +69,24 @@ body {
 /* #endregion Common-Styles */
 
 /* #region Header */
+.logo {
+  color: var(--dark-cl);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-accent {
+  color: var(--primary-brand-cl);
+}
+
+.nav-items {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--dark-cl);
+}
 /* #endregion Header */
 
 /* #region Main */
@@ -50,27 +95,6 @@ body {
 /* #region Footer */
 /* #endregion Footer */
 
-.raleway-<uniquifier > {
-  font-family: 'Raleway', sans-serif;
+/* .raleway {
   font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
-}
-
-.roboto-regular {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.roboto-medium {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.roboto-bold {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
+} */

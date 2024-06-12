@@ -18,7 +18,7 @@
     content="webpages, websites, business, portfolio, technologies, apps, service, solutions, strategies, sales, digital marketing"
   >
 
-  <title>Webstudio. Main page</title>
+  <title>Webstudio</title>
 
   <!-- Custom Fonts -->
   <link
@@ -31,7 +31,7 @@
     crossorigin
   >
   <link
-    href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
     rel="stylesheet"
   >
 
@@ -53,25 +53,28 @@
   <!-- #region Header -->
   <header>
     <nav>
-      <a href="./index.html">
-        <span>Web</span>Studio
+      <a
+        href="./index.html"
+        class="logo"
+      >
+        <span class=" logo logo-accent">Web</span>Studio
       </a>
 
-      <ul>
+      <ul class="nav-items">
         <li>
-          <a href="./index.html">
+          <a href="#studio">
             Studio
           </a>
         </li>
 
         <li>
-          <a href="./pages/portfolio.html">
+          <a href="#portfolio">
             Portfolio
           </a>
         </li>
 
         <li>
-          <a href="">
+          <a href="#contacts">
             Contacts
           </a>
         </li>
@@ -110,7 +113,12 @@
 
     <!-- #region Benefits -->
     <section>
-      <h2 class="visually-hidden">Benefits</h2>
+      <h2
+        class="visually-hidden"
+        id="studio"
+      >
+        Benefits
+      </h2>
 
       <ul>
         <li>
@@ -136,43 +144,9 @@
     </section>
     <!-- #endregion Benefits -->
 
-    <!-- #region What-Are-We-Doing -->
-    <section>
-      <h2>What Are We Doing</h2>
-      <ul>
-        <li>
-          <img
-            src="./images/what-are-we-doing/img-1.jpg"
-            alt="Section What are we doing. Picture number 1"
-            width="360"
-            height="300"
-          >
-        </li>
-
-        <li>
-          <img
-            src="./images/what-are-we-doing/img-2.jpg"
-            alt="Section What are we doing. Picture number 2"
-            width="360"
-            height="300"
-          >
-        </li>
-
-        <li>
-          <img
-            src="./images/what-are-we-doing/img-3.jpg"
-            alt="Section What are we doing. Picture number 3"
-            width="360"
-            height="300"
-          >
-        </li>
-      </ul>
-    </section>
-    <!-- #endregion What-Are-We-Doing -->
-
     <!-- #region Our-Team -->
     <section>
-      <h2>Our Team</h2>
+      <h2 id="contacts">Our Team</h2>
 
       <ul>
         <li>
@@ -221,6 +195,89 @@
       </ul>
     </section>
     <!-- #endregion Our-Team -->
+
+    <!-- #region Our-Portfolio -->
+    <h2 id="portfolio">Our Portfolio</h2>
+    <ul>
+      <li>
+        <a href="">
+          <img
+            src="./images/our-portfolio/img-1.jpg"
+            alt="Portfolio project example number 1"
+            width="360"
+            height="300"
+          >
+          <h3>Banking App Interface Concept</h3>
+          <p>App</p>
+        </a>
+      </li>
+
+      <li>
+        <a href="">
+          <img
+            src="./images/our-portfolio/img-2.jpg"
+            alt="Portfolio project example number 2"
+            width="360"
+            height="300"
+          >
+          <h3>Cashless Payment</h3>
+          <p>Marketing</p>
+        </a>
+      </li>
+
+      <li>
+        <a href="">
+          <img
+            src="./images/our-portfolio/img-3.jpg"
+            alt="Portfolio project example number 3"
+            width="360"
+            height="300"
+          >
+          <h3>Meditation App</h3>
+          <p>App</p>
+        </a>
+      </li>
+
+      <li>
+        <a href="">
+          <img
+            src="./images/our-portfolio/img-4.jpg"
+            alt="Portfolio project example number 4"
+            width="360"
+            height="300"
+          >
+          <h3>Taxi Service</h3>
+          <p>Marketing</p>
+        </a>
+      </li>
+
+      <li>
+        <a href="">
+          <img
+            src="./images/our-portfolio/img-5.jpg"
+            alt="Portfolio project example number 5"
+            width="360"
+            height="300"
+          >
+          <h3>Screen Illustrations</h3>
+          <p>Design</p>
+        </a>
+      </li>
+
+      <li>
+        <a href="">
+          <img
+            src="./images/our-portfolio/img-6.jpg"
+            alt="Portfolio project example number 6"
+            width="360"
+            height="300"
+          >
+          <h3>Online Courses</h3>
+          <p>Marketing</p>
+        </a>
+      </li>
+    </ul>
+    <!-- #endregion Our-Portfolio -->
   </main>
   <!-- #nedregion Main -->
 
