@@ -89,8 +89,37 @@ button {
 }
 /* #endregion Header */
 
-/* #region Main */
-/* #endregion Main */
+/* #rerion Hero */
+.hero {
+  background-color: var(--dark-cl);
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white-bg-cl);
+}
+
+.hero-btn {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: var(--primary-brand-cl);
+  color: var(--white-bg-cl);
+}
+/* #endrerion Hero */
+
+/* #region Benefits */
+/* #endregion Benefits */
+
+/* #region Our-Team */
+/* #endregion Our-Team */
+
+/* #region Our-Portfolio */
+/* #endregion Our-Portfolio */
 
 /* #region Footer */
 /* #endregion Footer */
