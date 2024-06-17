@@ -49,6 +49,7 @@ address {
 
 button {
   cursor: pointer;
+  line-height: 1.5;
 }
 /* #endregion Base-Styles */
 
@@ -65,6 +66,43 @@ button {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.page-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white-bg-cl);
+}
+
+.btn {
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  background-color: var(--primary-brand-cl);
+  color: var(--white-bg-cl);
+}
+
+.section-title {
+}
+
+.section-subtitle {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: var(--dark-cl);
+}
+
+.text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: var(--text-cl);
 }
 /* #endregion Common-Styles */
 
@@ -93,23 +131,6 @@ button {
 .hero {
   background-color: var(--dark-cl);
 }
-
-.hero-title {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: var(--white-bg-cl);
-}
-
-.hero-btn {
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  background-color: var(--primary-brand-cl);
-  color: var(--white-bg-cl);
-}
 /* #endrerion Hero */
 
 /* #region Benefits */
@@ -122,6 +143,9 @@ button {
 /* #endregion Our-Portfolio */
 
 /* #region Footer */
+.footer-text {
+  color: var(--light-cl);
+}
 /* #endregion Footer */
 
 /* .raleway {
