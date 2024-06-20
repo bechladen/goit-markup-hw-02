@@ -72,7 +72,6 @@ button {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 0.02em;
   text-align: center;
   color: var(--white-bg-cl);
 }
@@ -92,12 +91,17 @@ button {
   color: var(--dark-cl);
 }
 
+.section-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--dark-cl);
+}
+
 .text {
   color: var(--text-cl);
 }
-/* #endregion Common-Styles */
 
-/* #region Header */
 .logo {
   color: var(--dark-cl);
   font-size: 18px;
@@ -106,14 +110,15 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+/* #endregion Common-Styles */
 
-.logo-accent {
-  color: var(--primary-brand-cl);
+/* #region Header */
+.logo-header-accent {
+  color: var(--dark-cl);
 }
 
 .nav-items {
   font-weight: 500;
-  letter-spacing: 0.02em;
   color: var(--dark-cl);
 }
 /* #endregion Header */
@@ -130,6 +135,7 @@ button {
 /* #region Our-Team */
 .team {
   background-color: var(--light-cl);
+  text-align: center;
 }
 /* #endregion Our-Team */
 
@@ -137,11 +143,15 @@ button {
 /* #endregion Our-Portfolio */
 
 /* #region Footer */
+.footer {
+  background-color: var(--dark-cl);
+}
+
+.logo-footer-accent {
+  color: var(--light-cl);
+}
+
 .footer-text {
   color: var(--light-cl);
 }
 /* #endregion Footer */
-
-/* .raleway {
-  font-optical-sizing: auto;
-} */
