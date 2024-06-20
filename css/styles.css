@@ -79,8 +79,8 @@ button {
 .btn {
   font-weight: 500;
   letter-spacing: 0.04em;
-  background-color: var(--primary-brand-cl);
   color: var(--white-bg-cl);
+  background-color: var(--primary-brand-cl);
 }
 
 .section-title {
@@ -120,6 +120,20 @@ button {
 .nav-items {
   font-weight: 500;
   color: var(--dark-cl);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--pressed-state-cl);
+}
+
+.address-link {
+  color: currentColor;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--pressed-state-cl);
 }
 /* #endregion Header */
 
