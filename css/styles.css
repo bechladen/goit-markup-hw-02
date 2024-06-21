@@ -17,7 +17,13 @@
   --hero-bg-cl: rgba(46, 47, 66, 0.7);
   --white-bg-cl: #fff;
   --modal-bg-cl: #fcfcfc;
+
+  /* Font-Weights */
+  --weight-base: 400;
+  --weight-lg: 500;
+  --weight-xl: 700;
 }
+
 /* #endregion Variables */
 
 /* #region Base-Styles */
@@ -30,7 +36,7 @@ body {
 
   /* Default values */
   font-size: 16px;
-  font-weight: 400;
+  font-weight: var(--weight-base);
   font-style: normal;
 }
 
@@ -61,7 +67,6 @@ button {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -69,7 +74,7 @@ button {
 }
 
 .page-title {
-  font-weight: 700;
+  font-weight: var(--weight-xl);
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -77,14 +82,19 @@ button {
 }
 
 .btn {
-  font-weight: 500;
+  font-weight: var(--weight-lg);
   letter-spacing: 0.04em;
   color: var(--white-bg-cl);
   background-color: var(--primary-brand-cl);
 }
 
+.btn:hover,
+.btn:focus {
+  background-color: var(--pressed-state-cl);
+}
+
 .section-title {
-  font-weight: 700;
+  font-weight: var(--weight-xl);
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -92,7 +102,7 @@ button {
 }
 
 .section-subtitle {
-  font-weight: 500;
+  font-weight: var(--weight-lg);
   font-size: 20px;
   line-height: 1.2;
   color: var(--dark-cl);
@@ -105,7 +115,7 @@ button {
 .logo {
   color: var(--dark-cl);
   font-size: 18px;
-  font-weight: 700;
+  font-weight: var(--weight-xl);
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -118,7 +128,7 @@ button {
 }
 
 .nav-items {
-  font-weight: 500;
+  font-weight: var(--weight-lg);
   color: var(--dark-cl);
 }
 

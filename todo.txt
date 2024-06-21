@@ -1,0 +1,5 @@
+add todo.txt to .gitignore
+Вага шрифту явно вказана тільки, якщо значення в макеті відрізняється від стандартного для цього елемента в браузері. how do I know what is standard in the browser? Do I have to check the normalizer every time? or do I have to check the dev mode in my browser all the time?
+css: /* .raleway {
+  font-optical-sizing: auto;
+} */
