@@ -157,6 +157,10 @@ button {
   background-color: var(--light-cl);
   text-align: center;
 }
+
+.employee-card {
+  background-color: var(--white-bg-cl);
+}
 /* #endregion Our-Team */
 
 /* #region Our-Portfolio */
