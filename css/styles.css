@@ -89,10 +89,12 @@ button {
   line-height: 1.11;
   text-align: center;
   color: var(--dark-cl);
+  text-transform: capitalize;
 }
 
 .section-subtitle {
   font-weight: var(--lg-weight);
+  letter-spacing: 0.02em;
   font-size: 20px;
   line-height: 1.2;
   color: var(--dark-cl);
