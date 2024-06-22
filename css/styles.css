@@ -19,9 +19,9 @@
   --modal-bg-cl: #fcfcfc;
 
   /* Font-Weights */
-  --weight-base: 400;
-  --weight-lg: 500;
-  --weight-xl: 700;
+  --base-weight: 400;
+  --lg-weight: 500;
+  --xl-weight: 700;
 }
 
 /* #endregion Variables */
@@ -36,7 +36,7 @@ body {
 
   /* Default values */
   font-size: 16px;
-  font-weight: var(--weight-base);
+  font-weight: var(--base-weight);
   font-style: normal;
 }
 
@@ -55,7 +55,7 @@ address {
 
 button {
   cursor: pointer;
-  line-height: 1.5;
+  font-family: inherit;
 }
 /* #endregion Base-Styles */
 
@@ -74,7 +74,7 @@ button {
 }
 
 .page-title {
-  font-weight: var(--weight-xl);
+  font-weight: var(--xl-weight);
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -82,8 +82,9 @@ button {
 }
 
 .btn {
-  font-weight: var(--weight-lg);
+  line-height: 1.5;
   letter-spacing: 0.04em;
+  font-weight: var(--lg-weight);
   color: var(--white-bg-cl);
   background-color: var(--primary-brand-cl);
 }
@@ -94,7 +95,7 @@ button {
 }
 
 .section-title {
-  font-weight: var(--weight-xl);
+  font-weight: var(--xl-weight);
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -102,7 +103,7 @@ button {
 }
 
 .section-subtitle {
-  font-weight: var(--weight-lg);
+  font-weight: var(--lg-weight);
   font-size: 20px;
   line-height: 1.2;
   color: var(--dark-cl);
@@ -115,7 +116,7 @@ button {
 .logo {
   color: var(--dark-cl);
   font-size: 18px;
-  font-weight: var(--weight-xl);
+  font-weight: var(--xl-weight);
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -128,7 +129,7 @@ button {
 }
 
 .nav-items {
-  font-weight: var(--weight-lg);
+  font-weight: var(--lg-weight);
   color: var(--dark-cl);
 }
 

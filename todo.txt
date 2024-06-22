@@ -1,5 +1,6 @@
-add todo.txt to .gitignore
-Вага шрифту явно вказана тільки, якщо значення в макеті відрізняється від стандартного для цього елемента в браузері. how do I know what is standard in the browser? Do I have to check the normalizer every time? or do I have to check the dev mode in my browser all the time?
+Вага шрифту явно вказана тільки, якщо значення в макеті відрізняється від стандартного для цього елемента в браузері. how do I know what is standard in the browser? Do I have to check the normalizer every time? or do I have to check the dev mode in my browser all the time? different browsers have different font-weights
+same question: У стилях не повторюються значення властивостей, які задані браузером за замовчуванням. Наприклад, посиланням не потрібно вказувати cursor: pointer, а абзацам font-style: normal або font-weight: 400. how do I know the browser settings? Moreover all the browsers have different settings
 css: /* .raleway {
   font-optical-sizing: auto;
 } */
+when we have an recurrent element, eg color, do we have to make all color variables or oly the ones which are recurring the most?
