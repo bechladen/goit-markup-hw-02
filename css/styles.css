@@ -62,6 +62,7 @@ button {
 /* #region Common-Styles */
 .page-title {
   font-weight: var(--xl-weight);
+  letter-spacing: 0.02em;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
