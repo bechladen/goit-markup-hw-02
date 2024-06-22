@@ -101,6 +101,7 @@ button {
 }
 
 .logo {
+  font-family: var(--secondary-font);
   color: var(--primary-brand-cl);
   font-size: 18px;
   font-weight: var(--xl-weight);
