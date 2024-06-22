@@ -118,6 +118,9 @@ button {
 
 .nav-items {
   font-weight: var(--lg-weight);
+}
+
+.nav-link {
   color: var(--dark-cl);
 }
 
