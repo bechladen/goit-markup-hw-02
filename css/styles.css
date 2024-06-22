@@ -101,7 +101,7 @@ button {
 }
 
 .logo {
-  color: var(--dark-cl);
+  color: var(--primary-brand-cl);
   font-size: 18px;
   font-weight: var(--xl-weight);
   line-height: 1.17;
