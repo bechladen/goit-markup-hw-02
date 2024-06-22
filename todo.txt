@@ -4,4 +4,16 @@ css: /* .raleway {
   font-optical-sizing: auto;
 } */
 when we have an recurrent element, eg color, do we have to make all color variables or oly the ones which are recurring the most?
-change hidden in html to visually-hidden in css
+change hidden in html to visually-hidden in css:
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
